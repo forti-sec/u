@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bilal | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 60px 20px;
+    }
+    h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    .typing {
+      font-size: 1.5em;
+      color: #00ffcc;
+      border-right: 2px solid;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      animation: typing 4s steps(30, end) infinite alternate,
+                 blink .75s step-end infinite;
+    }
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    @keyframes blink {
+      from, to { border-color: transparent; }
+      50% { border-color: #00ffcc; }
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .card {
+      max-width: 700px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+    }
+    a {
+      color: #00ffcc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      padding: 20px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Bilal 👋</h1>
+    <div class="typing">Cybersecurity Enthusiast | CTF Player | Developer</div>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2>🚀 About Me</h2>
+      <p>
+        I am passionate about <strong>Cybersecurity</strong>, <strong>CTFs</strong>, 
+        and building projects that make a difference.  
+        Skilled in Linux, Networking, and Web Security.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <h2>📂 Projects</h2>
+      <ul style="list-style:none; padding:0;">
+        <li>🔐 Secure Chat System</li>
+        <li>🌍 Custom Web Browser History (C++)</li>
+        <li>⚡ Assembly Pattern Generator</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <h2>📬 Connect with Me</h2>
+      <p>
+        💼 <a href="https://fiverr.com/">Fiverr</a> | 
+        🐦 <a href="https://twitter.com/">Twitter</a> | 
+        📷 <a href="https://instagram.com/">Instagram</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Visitor Count:</p>
+    <img src="https://profile-counter.glitch.me/bilal-io/count.svg" alt="visitor counter">
+    <p>© 2025 Bilal | Hosted on GitHub Pages</p>
+  </footer>
+</body>
+</html>

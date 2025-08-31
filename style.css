@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 85%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  text-align: center;
+  padding: 50px 0;
+  border-bottom: 5px solid #2563eb;
+}
+header h1 {
+  font-size: 2.8rem;
+}
+header .highlight {
+  color: #facc15;
+}
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Sections */
+section {
+  margin: 40px 0;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  border-left: 5px solid #3b82f6;
+  padding-left: 10px;
+}
+
+/* Skills */
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skills li {
+  background: #1e293b;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+/* Projects */
+.projects .card {
+  background: #1e293b;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+.projects .card:hover {
+  transform: translateY(-5px);
+}
+
+/* Contact */
+.contact a {
+  color: #3b82f6;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #1e293b;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  border-top: 2px solid #3b82f6;
+}
